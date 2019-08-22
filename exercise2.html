@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Exercise 2 - devC</title>
+
+    <link 
+        rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous"
+        />
+
+    <link 
+        rel="stylesheet" 
+        href="style.css" 
+        />
+</head>
+<body class="bg">
+    <center>
+        <br>
+        <h1 class="font"> Calculator </h1>
+        <hr>
+        <input type="text" id="view" />
+        <br><br>
+
+        <button type="button" class="btn btn-danger" onclick="clr()">CLEAR</button>
+        <br><br>
+
+        <button type="button" class="btn btn-dark" onclick="display('7')">7</button>
+        <button type="button" class="btn btn-dark" onclick="display('8')">8</button>
+        <button type="button" class="btn btn-dark" onclick="display('9')">9</button>
+        <button type="button" class="btn btn-danger" onclick="display('/')">/</button>
+        <br><br>
+
+        <button type="button" class="btn btn-dark" onclick="display('4')">4</button>
+        <button type="button" class="btn btn-dark" onclick="display('5')">5</button>
+        <button type="button" class="btn btn-dark" onclick="display('6')">6</button>
+        <button type="button" class="btn btn-danger" onclick="display('*')">x</button>
+        <br><br>
+
+        <button type="button" class="btn btn-dark" onclick="display('1')">1</button>
+        <button type="button" class="btn btn-dark" onclick="display('2')">2</button>
+        <button type="button" class="btn btn-dark" onclick="display('3')">3</button>
+        <button type="button" class="btn btn-danger" onclick="display('-')">-</button>
+        <br><br>
+
+        <button type="button" class="btn btn-dark" onclick="display('0')">0</button>
+        <button type="button" class="btn btn-dark" onclick="display('.')">.</button>
+        <button type="button" class="btn btn-danger" onclick="hitung()">=</button>
+        <button type="button" class="btn btn-danger" onclick="display('+')">+</button>
+        <br><br>
+    </center>
+
+    <script src="script.js"></script>
+</body>
+</html>

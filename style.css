@@ -1,0 +1,15 @@
+.bg {
+    background-color: yellow;
+}
+
+@font-face {
+    font-family: "burgundy";
+    src: url(Burgundy.ttf);
+}
+
+.font {
+    font-family: 'burgundy';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 40pt;
+}
